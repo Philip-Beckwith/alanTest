@@ -1,0 +1,15 @@
+key: MIFQWF
+
+I started by writing a regex program to find matches within the text.
+I sorted the list of matches by length.
+Taking the first four longest matches, I found the length between each match.
+After calculating a probable length using comon denominators (I got lucky that one of the lengths was 6 and it worked with the rest)
+After deciding on a good first lenght, I split each letter into groups by key length.
+To come up with a starting key I made a histogram of each of the groups.
+I came up a key that placed the highest frequency letter to be E for all groups.
+I altered my origonal program to use longer key.
+Next I tried to find words in the output text. I was lucky that The was already found many times.
+However the key wasn't right. I though I found secret and made the key produce secret in the output text.
+This was NOT right. All other words went away. So I reset my key and looked for other words to reproduce.
+I found something that looked like advantage.
+After making Advantage match, The key seems to be correct.

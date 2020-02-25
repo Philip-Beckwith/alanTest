@@ -1,0 +1,9 @@
+key: 0xcb
+
+To break this CypherText, I extended my earlier program to include the 
+code given to decode this kind of cypher text.
+A With a few new functions to inject hex values and correctly print them
+I was able to loop though 0 -> 255 and print all "decoded" values.
+Even though it was clear that it'd be much faster to go though these results
+I still didn't want to read 256 lines of junk. 
+A quick search for "the" brought me straight to the correct line.

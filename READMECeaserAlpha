@@ -1,0 +1,7 @@
+key: N
+
+I broke this Cypher by brute force. 
+I created a Java program that loops though A -> Z
+and does the shift on each char in the string.
+The program prints all vales out and I went though and read each one.
+When I found a string that had words, I knew I found the right Key.
